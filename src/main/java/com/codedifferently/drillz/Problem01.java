@@ -16,6 +16,8 @@ public class Problem01 {
      * @return
      */
     public boolean lastDigit(int a, int b) {
-        return false;
+        int remainderA = a % 10;
+        int remainderB = b % 10;
+        return remainderA == remainderB;
     }
 }
